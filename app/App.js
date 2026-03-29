@@ -1,7 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StatusBar } from 'expo-status-bar';
-import { Text } from 'react-native';
+import { I18nManager, Text } from 'react-native';
+
+// Force RTL layout for Hebrew UI
+I18nManager.forceRTL(true);
 
 import HomeScreen from './screens/HomeScreen';
 import AdminScreen from './screens/AdminScreen';

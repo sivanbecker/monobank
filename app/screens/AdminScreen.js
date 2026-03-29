@@ -20,5 +20,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#e94560',
     writingDirection: 'rtl',
+    textAlign: 'center',
   },
 });

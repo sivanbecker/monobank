@@ -21,11 +21,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#e94560',
     writingDirection: 'rtl',
+    textAlign: 'center',
   },
   subtitle: {
     fontSize: 20,
     color: '#a8dadc',
     marginTop: 8,
     writingDirection: 'rtl',
+    textAlign: 'center',
   },
 });
