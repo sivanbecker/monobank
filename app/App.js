@@ -1,33 +1,58 @@
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text } from 'react-native';
+
+import HomeScreen from './screens/HomeScreen';
+import AdminScreen from './screens/AdminScreen';
+import GameScreen from './screens/GameScreen';
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>מונופול</Text>
-      <Text style={styles.subtitle}>סופר בנקאות אלקטרונית</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <StatusBar style="light" />
+      <Tab.Navigator
+        screenOptions={{
+          headerShown: false,
+          tabBarStyle: {
+            backgroundColor: '#16213e',
+            borderTopColor: '#0f3460',
+          },
+          tabBarActiveTintColor: '#e94560',
+          tabBarInactiveTintColor: '#a8dadc',
+          tabBarLabelStyle: {
+            fontSize: 14,
+            fontWeight: 'bold',
+          },
+        }}
+      >
+        <Tab.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{
+            tabBarLabel: 'בית',
+            tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>🏠</Text>,
+          }}
+        />
+        <Tab.Screen
+          name="Game"
+          component={GameScreen}
+          options={{
+            tabBarLabel: 'משחק',
+            tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>🎲</Text>,
+          }}
+        />
+        <Tab.Screen
+          name="Admin"
+          component={AdminScreen}
+          options={{
+            tabBarLabel: 'ניהול',
+            tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>⚙️</Text>,
+          }}
+        />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1a1a2e',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontSize: 48,
-    fontWeight: 'bold',
-    color: '#e94560',
-    writingDirection: 'rtl',
-  },
-  subtitle: {
-    fontSize: 20,
-    color: '#a8dadc',
-    marginTop: 8,
-    writingDirection: 'rtl',
-  },
-});
