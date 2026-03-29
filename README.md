@@ -60,6 +60,19 @@ monopolBankingUnit/
 
 ---
 
+## Running the App
+
+Requires [Expo Go](https://expo.dev/go) installed on your Android phone.
+
+```bash
+cd app
+npx expo start
+```
+
+Scan the QR code with Expo Go. Do **not** use `npm run android` — that requires the Android SDK and an emulator.
+
+---
+
 ## Status
 
-In planning / early development. See [PLAN.md](PLAN.md) for the full task list.
+In development. See [PLAN.md](PLAN.md) for the full task list.
