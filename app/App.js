@@ -9,11 +9,13 @@ I18nManager.forceRTL(true);
 import HomeScreen from './screens/HomeScreen';
 import AdminScreen from './screens/AdminScreen';
 import GameScreen from './screens/GameScreen';
+import { GameSettingsProvider } from './context/GameSettings';
 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
+    <GameSettingsProvider>
     <NavigationContainer>
       <StatusBar style="light" />
       <Tab.Navigator
@@ -57,5 +59,6 @@ export default function App() {
         />
       </Tab.Navigator>
     </NavigationContainer>
+    </GameSettingsProvider>
   );
 }

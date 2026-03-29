@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useGameSettings } from '../context/GameSettings';
 import {
   Alert,
   FlatList,
@@ -22,7 +23,6 @@ const COLORS = [
   { id: 'orange', hex: '#f4a261', label: '🟠' },
 ];
 
-const STARTING_BALANCE = 1500;
 
 function colorFor(colorId) {
   return COLORS.find((c) => c.id === colorId);
@@ -338,9 +338,10 @@ function ActiveGamePhase({ players, setPlayers, onEnd }) {
 export default function GameScreen() {
   const [phase,   setPhase]   = useState('setup');
   const [players, setPlayers] = useState([]);
+  const { settings } = useGameSettings();
 
   function startGame(setupPlayers) {
-    setPlayers(setupPlayers.map((p) => ({ ...p, balance: STARTING_BALANCE })));
+    setPlayers(setupPlayers.map((p) => ({ ...p, balance: settings.startingBalance })));
     setPhase('active');
   }
 
