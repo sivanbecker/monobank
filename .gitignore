@@ -1,0 +1,5 @@
+game-instructions/*.jpg
+cards/*/*.jpeg
+cards/*/*.jpg
+
+.DS_Store

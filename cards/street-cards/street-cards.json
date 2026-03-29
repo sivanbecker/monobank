@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "color": "brown",
+    "colorHex": "#8B4513",
+    "city": "אילת",
+    "street": "רח' אילות",
+    "rent": 30,
+    "rentFullGroup": 60,
+    "barcode": null
+  },
+  {
+    "id": 2,
+    "color": "brown",
+    "colorHex": "#8B4513",
+    "city": "אילת",
+    "street": "שד' התמרים",
+    "rent": 30,
+    "rentFullGroup": 60,
+    "barcode": null
+  },
+  {
+    "id": 3,
+    "color": "lightBlue",
+    "colorHex": "#ADD8E6",
+    "city": "טבריה",
+    "street": "רח' העצמאות",
+    "rent": 50,
+    "rentFullGroup": 100,
+    "barcode": null
+  },
+  {
+    "id": 4,
+    "color": "lightBlue",
+    "colorHex": "#ADD8E6",
+    "city": "טבריה",
+    "street": "רח' הירדן",
+    "rent": 50,
+    "rentFullGroup": 100,
+    "barcode": null
+  },
+  {
+    "id": 5,
+    "color": "pink",
+    "colorHex": "#FF69B4",
+    "city": "באר-שבע",
+    "street": "דרך המשחררים",
+    "rent": 70,
+    "rentFullGroup": 140,
+    "barcode": null
+  },
+  {
+    "id": 6,
+    "color": "pink",
+    "colorHex": "#FF69B4",
+    "city": "באר-שבע",
+    "street": "שד' שז\"ר",
+    "rent": 70,
+    "rentFullGroup": 140,
+    "barcode": null
+  },
+  {
+    "id": 7,
+    "color": "orange",
+    "colorHex": "#FFA500",
+    "city": "נתניה",
+    "street": "שד' ויצמן",
+    "rent": 90,
+    "rentFullGroup": 180,
+    "barcode": null
+  },
+  {
+    "id": 8,
+    "color": "orange",
+    "colorHex": "#FFA500",
+    "city": "נתניה",
+    "street": "שד' בנימין",
+    "rent": 90,
+    "rentFullGroup": 180,
+    "barcode": null
+  },
+  {
+    "id": 9,
+    "color": "red",
+    "colorHex": "#FF0000",
+    "city": "רמת גן",
+    "street": "רח' ז'בוטינסקי",
+    "rent": 110,
+    "rentFullGroup": 220,
+    "barcode": null
+  },
+  {
+    "id": 10,
+    "color": "red",
+    "colorHex": "#FF0000",
+    "city": "רמת גן",
+    "street": "דרך אבא הלל",
+    "rent": 110,
+    "rentFullGroup": 220,
+    "barcode": null
+  },
+  {
+    "id": 11,
+    "color": "yellow",
+    "colorHex": "#FFD700",
+    "city": "ירושלים",
+    "street": "רח' יפו",
+    "rent": 130,
+    "rentFullGroup": 260,
+    "barcode": null
+  },
+  {
+    "id": 12,
+    "color": "yellow",
+    "colorHex": "#FFD700",
+    "city": "ירושלים",
+    "street": "רח' בן יהודה",
+    "rent": 130,
+    "rentFullGroup": 260,
+    "barcode": null
+  },
+  {
+    "id": 13,
+    "color": "green",
+    "colorHex": "#008000",
+    "city": "חיפה",
+    "street": "רח' העצמאות",
+    "rent": 150,
+    "rentFullGroup": 300,
+    "barcode": null
+  },
+  {
+    "id": 14,
+    "color": "green",
+    "colorHex": "#008000",
+    "city": "חיפה",
+    "street": "רח' החלוץ",
+    "rent": 150,
+    "rentFullGroup": 300,
+    "barcode": null
+  },
+  {
+    "id": 15,
+    "color": "darkBlue",
+    "colorHex": "#00008B",
+    "city": "תל אביב",
+    "street": "רח' דיזנגוף",
+    "rent": 180,
+    "rentFullGroup": 350,
+    "barcode": null
+  },
+  {
+    "id": 16,
+    "color": "darkBlue",
+    "colorHex": "#00008B",
+    "city": "תל אביב",
+    "street": "רח' אלנבי",
+    "rent": 200,
+    "rentFullGroup": 400,
+    "barcode": null
+  }
+]
