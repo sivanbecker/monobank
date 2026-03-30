@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { CameraView } from 'expo-camera';
 
-import streetCards from '../../cards/street-cards/street-cards.json';
-import surpriseCards from '../../cards/surprise-cards/surprise-cards.json';
+import streetCards from '../data/street-cards.json';
+import surpriseCards from '../data/surprise-cards.json';
 
 // Build a flat lookup map: barcode → card info
 const CARD_DB = {};
