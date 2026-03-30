@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>מדבקות QR – מונופול</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    h1 { text-align: center; margin-bottom: 6px; font-size: 20px; }
+    p.instructions { text-align: center; color: #555; margin-bottom: 20px; font-size: 13px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .sticker {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 6px 4px 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .color-bar { width: 100%; height: 5px; border-radius: 2px; margin-bottom: 2px; }
+
+    .sticker img { width: 100px; height: 100px; display: block; }
+
+    .code  { font-size: 8px; color: #999; letter-spacing: 0.3px; }
+    .label { font-size: 9px; font-weight: bold; text-align: center;
+             line-height: 1.4; color: #222; direction: rtl; white-space: pre-line; }
+
+    @media print {
+      body { background: white; padding: 4mm; }
+      h1, p.instructions { display: none; }
+      .grid { gap: 3px; max-width: 100%; }
+      .sticker { border: 1px dashed #bbb; border-radius: 2px; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>מדבקות QR – מונופול בנקאות</h1>
+<p class="instructions">הדפס, גזור, והדבק על הכרטיס המתאים · Ctrl+P להדפסה</p>
+
+<div class="grid">
+
+  <!-- ── Street cards ── -->
+  <div class="sticker"><div class="color-bar" style="background:#8B4513"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-01"><div class="code">MONO-S-01</div><div class="label">אילת
+רח׳ אילות</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#8B4513"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-02"><div class="code">MONO-S-02</div><div class="label">אילת
+שד׳ התמרים</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#ADD8E6"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-03"><div class="code">MONO-S-03</div><div class="label">טבריה
+רח׳ העצמאות</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#ADD8E6"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-04"><div class="code">MONO-S-04</div><div class="label">טבריה
+רח׳ הירדן</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FF69B4"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-05"><div class="code">MONO-S-05</div><div class="label">באר-שבע
+דרך המשחררים</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FF69B4"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-06"><div class="code">MONO-S-06</div><div class="label">באר-שבע
+שד׳ שז״ר</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FFA500"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-07"><div class="code">MONO-S-07</div><div class="label">נתניה
+שד׳ ויצמן</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FFA500"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-08"><div class="code">MONO-S-08</div><div class="label">נתניה
+שד׳ בנימין</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FF4444"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-09"><div class="code">MONO-S-09</div><div class="label">רמת גן
+רח׳ ז׳בוטינסקי</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FF4444"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-10"><div class="code">MONO-S-10</div><div class="label">רמת גן
+דרך אבא הלל</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FFD700"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-11"><div class="code">MONO-S-11</div><div class="label">ירושלים
+רח׳ יפו</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#FFD700"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-12"><div class="code">MONO-S-12</div><div class="label">ירושלים
+רח׳ בן יהודה</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#228B22"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-13"><div class="code">MONO-S-13</div><div class="label">חיפה
+רח׳ העצמאות</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#228B22"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-14"><div class="code">MONO-S-14</div><div class="label">חיפה
+רח׳ החלוץ</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#00008B"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-15"><div class="code">MONO-S-15</div><div class="label">תל אביב
+רח׳ דיזנגוף</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#00008B"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-S-16"><div class="code">MONO-S-16</div><div class="label">תל אביב
+רח׳ אלנבי</div></div>
+
+  <!-- ── Surprise cards ── -->
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-01"><div class="code">MONO-P-01</div><div class="label">מס לנכס
+₪30 × נכסים</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-02"><div class="code">MONO-P-02</div><div class="label">ניירת
+שלם ₪30</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-03"><div class="code">MONO-P-03</div><div class="label">צא מכלא
+בחינם</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-04"><div class="code">MONO-P-04</div><div class="label">סיור טבע
+קבל ₪100</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-05"><div class="code">MONO-P-05</div><div class="label">טיול חינם
+כל משבצת</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-06"><div class="code">MONO-P-06</div><div class="label">פארק שעשועים
+₪50 לשניים</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-07"><div class="code">MONO-P-07</div><div class="label">מופע
+₪10 מכל שחקן</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-08"><div class="code">MONO-P-08</div><div class="label">לך לכלא
+ישירות</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-09"><div class="code">MONO-P-09</div><div class="label">חטיף
+קבל ₪20</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-10"><div class="code">MONO-P-10</div><div class="label">שלח לכלא
+שחקן אחר</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-11"><div class="code">MONO-P-11</div><div class="label">גן חיות
+קבל ₪100</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-12"><div class="code">MONO-P-12</div><div class="label">עץ על הרכב
+שלם ₪100</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-13"><div class="code">MONO-P-13</div><div class="label">חטיף
+קבל ₪20</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-14"><div class="code">MONO-P-14</div><div class="label">גלידה
+קבל ₪50</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-15"><div class="code">MONO-P-15</div><div class="label">קיאקים
+קבל ₪50</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-16"><div class="code">MONO-P-16</div><div class="label">השקעה גרועה
+₪50 לכל שחקן</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-17"><div class="code">MONO-P-17</div><div class="label">מצפה כוכבים
+₪50 לשניים</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-18"><div class="code">MONO-P-18</div><div class="label">שיפוץ
+שלם ₪50</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-19"><div class="code">MONO-P-19</div><div class="label">טיול חינם
+כל משבצת</div></div>
+
+  <div class="sticker"><div class="color-bar" style="background:#a0c4ff"></div><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=MONO-P-20"><div class="code">MONO-P-20</div><div class="label">חשבון חשמל
+שלם ₪150</div></div>
+
+</div>
+</body>
+</html>

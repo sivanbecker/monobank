@@ -4,139 +4,139 @@
     "textHe": "איחרת בתשלום מיסים. שלם ₪30 עבור כל נכס בבעלותך.",
     "effectType": "payPerProperty",
     "amount": 30,
-    "barcode": null
+    "barcode": "MONO-P-01"
   },
   {
     "id": 2,
     "textHe": "עדיין עובד עם ניירת?! שלם ₪30.",
     "effectType": "pay",
     "amount": 30,
-    "barcode": null
+    "barcode": "MONO-P-02"
   },
   {
     "id": 3,
     "textHe": "צא מהכלא בחינם. ניתן לשמור לעת צרה.",
     "effectType": "getOutOfJailFree",
     "amount": null,
-    "barcode": null
+    "barcode": "MONO-P-03"
   },
   {
     "id": 4,
     "textHe": "זכית בסיור מודרך בשמורות טבע. קבל ₪100.",
     "effectType": "receive",
     "amount": 100,
-    "barcode": null
+    "barcode": "MONO-P-04"
   },
   {
     "id": 5,
     "textHe": "טיול חינם! אתה יכול לעבור לאיזו משבצת שתבחר על הלוח בחינם!",
     "effectType": "moveAnywhere",
     "amount": null,
-    "barcode": null
+    "barcode": "MONO-P-05"
   },
   {
     "id": 6,
     "textHe": "זכית בשני כרטיסים לפארק השעשועים. בחר באחד המשתתפים, שניכם מקבלים ₪50.",
     "effectType": "receiveSharedWithChosenPlayer",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-06"
   },
   {
     "id": 7,
     "textHe": "כרטיסים למופע עבורך ועבור החברים שלך. קבל ₪10 מכל משתתף.",
     "effectType": "receiveFromEachPlayer",
     "amount": 10,
-    "barcode": null
+    "barcode": "MONO-P-07"
   },
   {
     "id": 8,
     "textHe": "לך לכלא. לך ישר לכלא. אל תעבור \"דרך צלחה\". אל תקבל ₪200.",
     "effectType": "goToJailSelf",
     "amount": null,
-    "barcode": null
+    "barcode": "MONO-P-08"
   },
   {
     "id": 9,
     "textHe": "קנית את החטיף האהוב עליך במארז חיסכון! קבל ₪20.",
     "effectType": "receive",
     "amount": 20,
-    "barcode": null
+    "barcode": "MONO-P-09"
   },
   {
     "id": 10,
     "textHe": "שלח את אחד המשתתפים לכלא באופן מיידי. הוא לא יכול לעבור \"דרך צלחה\" או לקבל ₪200.",
     "effectType": "sendPlayerToJail",
     "amount": null,
-    "barcode": null
+    "barcode": "MONO-P-10"
   },
   {
     "id": 11,
     "textHe": "זכית בסיור פרטי מודרך בגן-החיות! קבל ₪100.",
     "effectType": "receive",
     "amount": 100,
-    "barcode": null
+    "barcode": "MONO-P-11"
   },
   {
     "id": 12,
     "textHe": "אוי לא! נפל לך עץ על הרכב. שלם ₪100.",
     "effectType": "pay",
     "amount": 100,
-    "barcode": null
+    "barcode": "MONO-P-12"
   },
   {
     "id": 13,
     "textHe": "קנית את החטיף האהוב עליך במארז חיסכון! קבל ₪20.",
     "effectType": "receive",
     "amount": 20,
-    "barcode": null
+    "barcode": "MONO-P-13"
   },
   {
     "id": 14,
-    "textHe": "זכית בפרס כספי על טעימות של כל סוגי הגלידה בגלידריה השכונתית! (כולל מלפפון חמון וקצפת! איכס!) קבל ₪50.",
+    "textHe": "זכית בפרס כספי על טעימות של כל סוגי הגלידה בגלידריה השכונתית! קבל ₪50.",
     "effectType": "receive",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-14"
   },
   {
     "id": 15,
     "textHe": "זכית בטיול קיאקים! קבל ₪50.",
     "effectType": "receive",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-15"
   },
   {
     "id": 16,
     "textHe": "שכנעת חבר לבצע השקעה גרועה. שלם לכל משתתף ₪50.",
     "effectType": "payEachPlayer",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-16"
   },
   {
     "id": 17,
     "textHe": "זכית בכניסה למצפה הכוכבים עבורך ועבור חבר. בחר באחד המשתתפים, שניכם מקבלים ₪50.",
     "effectType": "receiveSharedWithChosenPlayer",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-17"
   },
   {
     "id": 18,
     "textHe": "הנכסים שלך זקוקים לשיפוץ! שלם ₪50.",
     "effectType": "pay",
     "amount": 50,
-    "barcode": null
+    "barcode": "MONO-P-18"
   },
   {
     "id": 19,
     "textHe": "טיול חינם! אתה יכול לעבור לאיזו משבצת שתבחר על הלוח בחינם!",
     "effectType": "moveAnywhere",
     "amount": null,
-    "barcode": null
+    "barcode": "MONO-P-19"
   },
   {
     "id": 20,
     "textHe": "קיבלת חשבון חשמל! שלם ₪150.",
     "effectType": "pay",
     "amount": 150,
-    "barcode": null
+    "barcode": "MONO-P-20"
   }
 ]

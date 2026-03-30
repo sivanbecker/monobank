@@ -9,6 +9,7 @@ I18nManager.forceRTL(true);
 import HomeScreen from './screens/HomeScreen';
 import AdminScreen from './screens/AdminScreen';
 import GameScreen from './screens/GameScreen';
+import CameraScreen from './screens/CameraScreen';
 import { GameSettingsProvider } from './context/GameSettings';
 
 const Tab = createBottomTabNavigator();
@@ -55,6 +56,14 @@ export default function App() {
           options={{
             tabBarLabel: 'ניהול',
             tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>⚙️</Text>,
+          }}
+        />
+        <Tab.Screen
+          name="Camera"
+          component={CameraScreen}
+          options={{
+            tabBarLabel: 'סריקה',
+            tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>📷</Text>,
           }}
         />
       </Tab.Navigator>
